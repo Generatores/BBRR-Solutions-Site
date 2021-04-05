@@ -1,0 +1,14 @@
+.button_container {
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+}
+.std_button {
+  background-color: lightgray;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.std_button:hover, .std_button:focus {
+  background-color: rgb(7, 194, 7);
+}
