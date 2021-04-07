@@ -28,6 +28,3 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-button:focus {
-    outline: none;
-}

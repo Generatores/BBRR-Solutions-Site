@@ -1,0 +1,17 @@
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.header_container {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+#bbrr_logo {
+  width: 100px;
+}
+.header_item {
+  margin: auto;
+  width: 45%;
+}

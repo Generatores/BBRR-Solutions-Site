@@ -1,0 +1,6 @@
+.dropdown_block {
+  display: none;
+}
+.dropdown_block > .button_container {
+  padding: 2.5px;
+}

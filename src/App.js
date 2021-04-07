@@ -1,27 +1,27 @@
-import Stdbtn from "./components/std-button";
-import "./app.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import "./stylesheet.css";
+
+import Header from "./blocks/header.js";
+import Footer from "./blocks/footer.js";
+
+import Home from "./pages/home.js";
+import Privacypolicy from "./pages/privacy-policy.js";
+import Termsofuse from "./pages/terms-of-use.js";
 
 function App() {
   return (
-    <div className='App'>
-      <h1>BBRR Solutions React Boilerplate</h1>
-      <div className='container'>
-        <p>Please enjoy our version of create-react-app</p>
-        <Stdbtn />
-        <Stdbtn />
-        <Stdbtn />
-        <p>
-          Visit us at{" "}
-          <a href='https://dev.bbrr.solutions'>dev.bbrr.solutions</a>
-        </p>
-        <p>
-          See our public repositories at{" "}
-          <a href='https://dev.azure.com/BBRRSolutions/BBRR%20DevOps'>
-            BBRR DevOps
-          </a>
-        </p>
+    <Router>
+      <div className='App'>
+        <Header />
+        <Switch>
+          <Route path={"/"} exact component={Home} />
+          <Route path={"/Legal/Privacy-Policy"} component={Privacypolicy} />
+          <Route path={"/Legal/Terms-of-Use"} component={Termsofuse} />
+        </Switch>
+        <Footer />
       </div>
-    </div>
+    </Router>
   );
 }
 

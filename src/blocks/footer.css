@@ -1,0 +1,12 @@
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: lightgray;
+  padding: 5px;
+}
+.company_footer > p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
