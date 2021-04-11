@@ -1,0 +1,13 @@
+.body_404 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.body_404 > p {
+  text-align: center;
+  font-size: calc(24px + 1.5vw);
+}
+.body_404 > div {
+  width: 100%;
+}

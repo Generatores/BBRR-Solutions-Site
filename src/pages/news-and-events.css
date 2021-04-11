@@ -1,0 +1,6 @@
+.news_container {
+  text-align: center;
+}
+.news_container > .homeisland {
+  width: 100%;
+}
