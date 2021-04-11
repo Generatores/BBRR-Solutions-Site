@@ -1,6 +1,6 @@
 import "./header.css";
 
-import BBRRLogo from "../assets/BBRR Solutions without background.png";
+import BBRRLogo from "../assets/images/BBRR Solutions without background.png";
 
 import Nav from "./nav.js";
 
