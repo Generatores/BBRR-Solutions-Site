@@ -5,7 +5,7 @@ import Dropdown from "../components/dropdown.js";
 
 export default function Nav() {
   return (
-    <div className='nav'>
+    <div className='nav header_container'>
       <Stdbtn button_text='Home' button_path='/' />
       <div className='dropdown_container'>
         <Stdbtn button_text='Our Services' button_path='/Our-Services' />

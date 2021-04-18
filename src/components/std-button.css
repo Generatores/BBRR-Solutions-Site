@@ -9,7 +9,7 @@
   background-color: lightgray;
   padding: 5px;
   border-radius: 10px;
-  width: 105px;
+  width: 100px;
 }
 .std_button:hover, .std_button:focus {
   background-color: rgb(7, 194, 7);

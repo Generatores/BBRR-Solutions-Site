@@ -14,8 +14,8 @@ export default function Header() {
           id='bbrr_logo'
           className='header_item'
         />
-        <h1 className='header_item'>You have the idea, we got you there...</h1>
       </div>
+
       <Nav />
     </div>
   );

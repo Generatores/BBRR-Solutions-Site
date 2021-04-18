@@ -1,5 +1,7 @@
 .nav {
   text-align: center;
+  vertical-align: top;
+  margin-top: 10px;
 }
 .dropdown_container {
   width: 115px;
