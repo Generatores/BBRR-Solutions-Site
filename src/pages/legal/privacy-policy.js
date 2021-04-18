@@ -1,5 +1,7 @@
-import "./body.css";
+import "../body.css";
 import "./privacy-policy.css";
+
+import GoToTop from "../../assets/scripts/go-to-top";
 
 export default function Privacypolicy() {
   return (
@@ -233,6 +235,7 @@ export default function Privacypolicy() {
         </a>
         .
       </p>
+      <GoToTop />
     </div>
   );
 }

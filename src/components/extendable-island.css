@@ -1,0 +1,23 @@
+.extendable_island {
+  margin: 10px 0px 10px 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.ei_container {
+  padding: 10px;
+  border-radius: 10px;
+}
+.ei_title_container {
+  background-color: lightgray;
+}
+.ei_body_container {
+  margin-top: 10px;
+}
+.ei_body_container > .button_container {
+  text-align: center;
+  width: 100%;
+}
+.ei_image {
+  width: 150px;
+}

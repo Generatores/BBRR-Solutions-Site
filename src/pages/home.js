@@ -7,6 +7,8 @@ import Island2 from "../assets/JSON/home/island-2.json";
 import Island3 from "../assets/JSON/home/island-3.json";
 import Island4 from "../assets/JSON/home/island-4.json";
 
+import GoToTop from "../assets/scripts/go-to-top";
+
 export default function Home() {
   return (
     <div className='body'>
@@ -17,6 +19,7 @@ export default function Home() {
         <Homeisland text={Island3.text} />
         <Homeisland text={Island4.text} />
       </div>
+      <GoToTop />
     </div>
   );
 }

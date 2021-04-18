@@ -1,5 +1,7 @@
-import "./body.css";
+import "../body.css";
 import "./terms-of-use.css";
+
+import GoToTop from "../../assets/scripts/go-to-top";
 
 export default function Termsofuse() {
   return (
@@ -311,6 +313,7 @@ export default function Termsofuse() {
         <span className='company_name'>BBRR Solutions</span> - All Rights
         Reserved.
       </p>
+      <GoToTop />
     </div>
   );
 }

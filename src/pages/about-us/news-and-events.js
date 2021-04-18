@@ -1,11 +1,13 @@
-import "./body.css";
+import "../body.css";
 import "./news-and-events.css";
 
-import Homeisland from "../components/home-island.js";
+import Homeisland from "../../components/home-island.js";
 
-import News1 from "../assets/JSON/news/new-1.json";
-import News2 from "../assets/JSON/news/new-2.json";
-import News3 from "../assets/JSON/news/new-3.json";
+import News1 from "../../assets/JSON/news/new-1.json";
+import News2 from "../../assets/JSON/news/new-2.json";
+import News3 from "../../assets/JSON/news/new-3.json";
+
+import GoToTop from "../../assets/scripts/go-to-top";
 
 export default function Newsandevents() {
   return (
@@ -15,6 +17,7 @@ export default function Newsandevents() {
         <Homeisland title={News2.title} text={News2.text} />
         <Homeisland title={News1.title} text={News1.text} />
       </div>
+      <GoToTop />
     </div>
   );
 }
