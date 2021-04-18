@@ -34,7 +34,7 @@ function App() {
           <Route path={"/About-us"} exact component={Aboutus} />
           <Route path={"/About-us/History"} component={History} />
           <Route path={"/About-us/News-and-Events"} component={Newsandevents} />
-          <Route path={"/About-us/Careers"} component={Careers} />
+          <Route path={"/About-us/Careers"} exact component={Careers} />
           <Route component={Error404} />
         </Switch>
         <Footer />
