@@ -1,13 +1,11 @@
 .homeisland {
-  margin: 10px;
+  margin: 5px;
+  padding: 10px;
   display: inline-block;
   min-width: 250px;
   background-color: lightgray;
   border-radius: 10px;
   vertical-align: top;
-}
-.homeisland_container {
-  margin: 10px;
 }
 .island_title {
   text-align: center;
