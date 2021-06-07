@@ -2,13 +2,13 @@
   position: absolute;
   top: 0;
   width: 100%;
-  text-align: center;
 }
-.header_container {
+.header_item {
+  margin: auto;
+  width: 45%;
   display: inline-block;
+  vertical-align: middle;
   text-align: center;
-  width: 40%;
-  min-width: 340px;
 }
 #bbrr_logo {
   width: 100px;
