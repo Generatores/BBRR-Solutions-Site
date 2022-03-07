@@ -1,28 +1,25 @@
-import "../body.css";
-import "./terms-of-use.css";
+import React, { FC } from "react";
 
-import GoToTop from "../../assets/scripts/go-to-top";
-
-export default function Termsofuse() {
+const TermsOfUse: FC = () => {
   return (
-    <div className='body terms_of_use'>
+    <div className="Body TermsOfUse">
       <h3>Terms of use</h3>
       <p>
-        © Copyright <span className='company_name'>BBRR Solutions</span>{" "}
-        <span className='copyright_year'>{new Date().getFullYear()}</span>. All
+        © Copyright <span className="CompanyName">BBRR Solutions</span>{" "}
+        <span className="copyright_year">{new Date().getFullYear()}</span>. All
         use is subject to our Terms of Use, which are subject to change without
         notice.
       </p>
       <p>
-        Welcome to <a href='www.bbrr.solutions'>www.bbrr.solutions</a> website
+        Welcome to <a href="www.bbrr.solutions">www.bbrr.solutions</a> website
         operated by
-        <span className='company_name'> BBRR Solutions</span>. Throughout the
+        <span className="CompanyName"> BBRR Solutions</span>. Throughout the
         site, the terms "we," "us" and "our" refer to{" "}
-        <span className='company_name'>BBRR Solutions</span>.{" "}
-        <span className='company_name'>BBRR Solutions</span> offers this
-        website, including all information, tools and/or services available from
-        this website, to you, the user, conditioned upon your acceptance of all
-        these Terms of Use. Your affirmative act of accessing or using this site
+        <span className="CompanyName">BBRR Solutions</span>.{" "}
+        <span className="CompanyName">BBRR Solutions</span> offers this website,
+        including all information, tools and/or services available from this
+        website, to you, the user, conditioned upon your acceptance of all these
+        Terms of Use. Your affirmative act of accessing or using this site
         signifies your consent to, without limitation or qualification, these
         Terms of Use. If you do not wish to be bound by these Terms of Use,
         please do not use the site.
@@ -55,23 +52,23 @@ export default function Termsofuse() {
         you may refer for these jobs.
       </p>
       <p>
-        <span className='company_name'>BBRR Solutions</span> does not represent
+        <span className="CompanyName">BBRR Solutions</span> does not represent
         or warrant that any products or services depicted or mentioned on this
         site are currently available for sale, are still in production, or have
         been tested for commercial use. Regardless of any information presented
-        on this site, <span className='company_name'>BBRR Solutions</span>{" "}
+        on this site, <span className="CompanyName">BBRR Solutions</span>{" "}
         reserves the right without prior notice to discontinue services,
         products, models, parts, accessories, and other items, or change
         specifications at any time, without incurring any obligations. Likewise,{" "}
-        <span className='company_name'>BBRR Solutions</span> does not represent
+        <span className="CompanyName">BBRR Solutions</span> does not represent
         or warrant that job opportunities depicted or mentioned on this site are
         currently available. This site should not be relied upon or used as the
         sole basis for making significant decisions without consulting primary
         or more accurate, complete or timely sources of information. Although{" "}
-        <span className='company_name'>BBRR Solutions</span> makes reasonable
+        <span className="CompanyName">BBRR Solutions</span> makes reasonable
         efforts to ensure that all material on this site is correct, accuracy
         and integrity cannot be guaranteed, and{" "}
-        <span className='company_name'>BBRR Solutions</span> does not assume any
+        <span className="CompanyName">BBRR Solutions</span> does not assume any
         responsibility or obligation for the accuracy, completeness or
         authenticity of material on the site.
       </p>
@@ -81,28 +78,28 @@ export default function Termsofuse() {
         logos, icons, images, audio clips, downloads, interfaces and code,
         and/or software, as well as the selection and arrangement thereof, are
         the exclusive property of{" "}
-        <span className='company_name'>BBRR Solutions</span>, its affiliates,
-        its licensors and/or its content providers or included with the
-        permission of the owner of those rights and is protected by copyright,
-        trademark, and other applicable laws. We reserve all rights. You may
-        access, copy, download and print the material contained on the site only
-        for your personal and noncommercial use, provided you do not modify or
-        delete any copyright, trademark or other proprietary notice that appears
-        on the material you access, copy, download or print. Any other use of
-        the material on the site, including but not limited to the modification,
+        <span className="CompanyName">BBRR Solutions</span>, its affiliates, its
+        licensors and/or its content providers or included with the permission
+        of the owner of those rights and is protected by copyright, trademark,
+        and other applicable laws. We reserve all rights. You may access, copy,
+        download and print the material contained on the site only for your
+        personal and noncommercial use, provided you do not modify or delete any
+        copyright, trademark or other proprietary notice that appears on the
+        material you access, copy, download or print. Any other use of the
+        material on the site, including but not limited to the modification,
         distribution, transmission, performance, broadcast, publication,
         licensing, reverse engineering, transfer or sale of, or the creation of
         derivative works from, any material, information, software, products or
         services obtained from the site, is expressly prohibited.{" "}
-        <span className='company_name'>BBRR Solutions</span> retains full and
+        <span className="CompanyName">BBRR Solutions</span> retains full and
         complete title to the material provided on the site, including all
         associated intellectual property rights, and provides this material to
         you under a license that is revocable at any time in{" "}
-        <span className='company_name'>BBRR Solutions</span>`s sole discretion.{" "}
-        <span className='company_name'>BBRR Solutions</span> neither warrants
-        nor represents that your use of materials on this site will not infringe
+        <span className="CompanyName">BBRR Solutions</span>`s sole discretion.{" "}
+        <span className="CompanyName">BBRR Solutions</span> neither warrants nor
+        represents that your use of materials on this site will not infringe
         rights of third parties not affiliated with{" "}
-        <span className='company_name'>BBRR Solutions</span>.
+        <span className="CompanyName">BBRR Solutions</span>.
       </p>
       <p>
         You may not use contact information provided on the site for improper
@@ -111,11 +108,11 @@ export default function Termsofuse() {
         to surreptitiously intercept any system, data or personal information
         from the site. You agree not to interrupt or attempt to interrupt the
         operation of the site in any way.{" "}
-        <span className='company_name'>BBRR Solutions</span> reserves the right,
+        <span className="CompanyName">BBRR Solutions</span> reserves the right,
         in its sole discretion, to terminate your access to or use of the site
         at any time without notice. Termination of your access or use will not
         waive or affect any right or relief to which{" "}
-        <span className='company_name'>BBRR Solutions</span> may be entitled, at
+        <span className="CompanyName">BBRR Solutions</span> may be entitled, at
         law or in equity.
       </p>
       <p>
@@ -155,7 +152,7 @@ export default function Termsofuse() {
         sites. Different terms and conditions may apply to your use of any
         linked sites. Your correspondence or business dealings with any entities
         found through linked sites are solely between you and such entity.{" "}
-        <span className='company_name'>BBRR Solutions</span> is not responsible
+        <span className="CompanyName">BBRR Solutions</span> is not responsible
         for any losses, damages, or other liabilities incurred as the result of
         any such dealings.
       </p>
@@ -168,18 +165,18 @@ export default function Termsofuse() {
       <p>
         Trademarks, logos, and service marks displayed on this site are
         registered and unregistered trademarks of{" "}
-        <span className='company_name'>BBRR Solutions</span> its affiliates, its
+        <span className="CompanyName">BBRR Solutions</span> its affiliates, its
         licensors, its content providers, and/or other third parties. All of
         these trademarks, logos, and service marks are the property of their
         respective owners. The names '''Other companies purchased''' and other
         associated trademarks and logos used on the website are trade marks of{" "}
-        <span className='company_name'>BBRR Solutions</span> or its subsidiaries
+        <span className="CompanyName">BBRR Solutions</span> or its subsidiaries
         or associated companies and may be registered in certain jurisdictions.
         Nothing on this site shall be construed as granting, by implication,
         estoppel, or otherwise, any license or right to use any trademark, logo,
         or service mark displayed on the site without the owner’s prior written
         permission, except as otherwise described herein.{" "}
-        <span className='company_name'>BBRR Solutions</span> reserves all rights
+        <span className="CompanyName">BBRR Solutions</span> reserves all rights
         not expressly granted in and to the site and its content.
       </p>
       <h3>DISCLAIMERS</h3>
@@ -187,7 +184,7 @@ export default function Termsofuse() {
         YOUR USE OF THIS SITE IS AT YOUR SOLE RISK. THE SITE IS PROVIDED ON AN
         "AS IS" AND "AS AVAILABLE" BASIS. WE RESERVE THE RIGHT TO RESTRICT OR
         TERMINATE YOUR ACCESS TO THE SITE OR ANY FEATURE OR PART THEREOF AT ANY
-        TIME. <span className='company_name'>BBRR SOLUTIONS</span> EXPRESSLY
+        TIME. <span className="CompanyName">BBRR SOLUTIONS</span> EXPRESSLY
         DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED
         INCLUDING, BUT NOT LIMITED TO: IMPLIED WARRANTIES OF MERCHANTABILITY AND
         FITNESS FOR A PARTICULAR PURPOSE AND ANY WARRANTIES THAT MATERIALS ON
@@ -200,9 +197,9 @@ export default function Termsofuse() {
         AND RISK. YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER
         SYSTEM OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF ANY SUCH
         MATERIALS. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED
-        BY YOU FROM <span className='company_name'>BBRR SOLUTIONS</span> OR
+        BY YOU FROM <span className="CompanyName">BBRR SOLUTIONS</span> OR
         THROUGH OR FROM THE SITE SHALL CREATE ANY WARRANTY OF ANY KIND.{" "}
-        <span className='company_name'>BBRR SOLUTIONS</span> DOES NOT MAKE ANY
+        <span className="CompanyName">BBRR SOLUTIONS</span> DOES NOT MAKE ANY
         WARRANTIES OR REPRESENTATIONS REGARDING THE USE OF THE MATERIALS ON THIS
         SITE IN TERMS OF THEIR COMPLETENESS, CORRECTNESS, ACCURACY, ADEQUACY,
         USEFULNESS, TIMELINESS, RELIABILITY OR OTHERWISE.
@@ -215,17 +212,17 @@ export default function Termsofuse() {
         RESPONSIBILITY FOR YOUR USE OF THE SITE. YOU ACKNOWLEDGE AND AGREE THAT
         YOUR USE OF THE SITE IS AT YOUR OWN RISK AND THAT THE SITE IS MADE
         AVAILABLE TO YOU AT NO CHARGE. RECOGNIZING SUCH, YOU ACKNOWLEDGE AND
-        AGREE THAT <span className='company_name'>BBRR SOLUTIONS</span>, ITS
+        AGREE THAT <span className="CompanyName">BBRR SOLUTIONS</span>, ITS
         AFFILIATES OR SUPPLIERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT,
         PUNITIVE, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR OTHER DAMAGES ARISING
         OUT OF OR IN ANY WAY RELATED TO THE SITE OR WITH THE DELAY OR INABILITY
         TO USE THE SITE, OR FOR ANY INFORMATION, PRODUCTS, OR SERVICES
         ADVERTISED IN OR OBTAINED THROUGH THE SITE,{" "}
-        <span className='company_name'>BBRR SOLUTIONS</span> 'S REMOVAL OR
+        <span className="CompanyName">BBRR SOLUTIONS</span> 'S REMOVAL OR
         DELETION OF ANY MATERIALS SUBMITTED OR POSTED ON ITS SITE, OR OTHERWISE
         ARISING OUT OF THE USE OF THE SITE, WHETHER BASED ON CONTRACT, TORT,
         STRICT LIABILITY OR OTHERWISE, EVEN IF{" "}
-        <span className='company_name'>BBRR SOLUTIONS</span> OR ANY OF ITS
+        <span className="CompanyName">BBRR SOLUTIONS</span> OR ANY OF ITS
         AFFILIATES OR SUPPLIERS HAS BEEN ADVISED OF THE POSSIBILITY OF DAMAGES.
         THIS DISCLAIMER APPLIES, WITHOUT LIMITATION, TO ANY DAMAGES OR INJURY
         ARISING FROM ANY FAILURE OF PERFORMANCE, ERROR, OMISSION, INTERRUPTION,
@@ -237,12 +234,12 @@ export default function Termsofuse() {
         ITS AFFILIATES OR SUPPLIERS SHALL NOT BE LIABLE FOR ANY DEFAMATORY,
         OFFENSIVE, OR ILLEGAL CONDUCT OF ANY USER OF THE SITE. YOUR SOLE AND
         EXCLUSIVE REMEDY FOR ANY OF THE ABOVE CLAIMS OR ANY DISPUTE WITH{" "}
-        <span className='company_name'>BBRR SOLUTIONS</span> IS TO DISCONTINUE
+        <span className="CompanyName">BBRR SOLUTIONS</span> IS TO DISCONTINUE
         YOUR USE OF THE SITE. YOU AND{" "}
-        <span className='company_name'>BBRR SOLUTIONS</span> AGREE THAT ANY
-        CAUSE OF ACTION ARISING OUT OF OR RELATED TO THE SITE MUST COMMENCE
-        WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES OR THE CAUSE OF
-        ACTION IS PERMANENTLY BARRED.
+        <span className="CompanyName">BBRR SOLUTIONS</span> AGREE THAT ANY CAUSE
+        OF ACTION ARISING OUT OF OR RELATED TO THE SITE MUST COMMENCE WITHIN ONE
+        (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES OR THE CAUSE OF ACTION IS
+        PERMANENTLY BARRED.
       </p>
       <p>
         BECAUSE SOME JURISDICTIONS DO NOT ALLOW LIMITATIONS ON HOW LONG AN
@@ -253,7 +250,7 @@ export default function Termsofuse() {
       <h3>Indemnification</h3>
       <p>
         By using this site, you agree to indemnify, defend and hold harmless{" "}
-        <span className='company_name'>BBRR Solutions</span> and its affiliates,
+        <span className="CompanyName">BBRR Solutions</span> and its affiliates,
         and their officers, directors, employees, contractors, agents,
         licensors, service providers, subcontractors and suppliers, from and
         against any and all losses, liabilities, expenses, damages and costs,
@@ -263,17 +260,17 @@ export default function Termsofuse() {
         transmitting the site to you or others, you agree to be responsible for
         any and all losses, liabilities, expenses, damages and costs, including
         reasonable attorneys’ fees and court costs, arising or resulting from
-        that disruption. <span className='company_name'>BBRR Solutions</span>{" "}
+        that disruption. <span className="CompanyName">BBRR Solutions</span>{" "}
         reserves the right, at its own expense, to assume exclusive defense and
         control of any matter otherwise subject to indemnification by you and,
         in such case, you agree to cooperate with{" "}
-        <span className='company_name'>BBRR Solutions</span> in defense of such
+        <span className="CompanyName">BBRR Solutions</span> in defense of such
         matter.
       </p>
       <h3>Jurisdiction</h3>
       <p>
         The site is controlled by{" "}
-        <span className='company_name'>BBRR Solutions</span> from its offices
+        <span className="CompanyName">BBRR Solutions</span> from its offices
         within the <b>Mexico</b>. The laws of the State of{" "}
         <b>Baja California</b> govern these Terms of Use and your use of the
         site. If you choose to access the site from a location outside the{" "}
@@ -303,17 +300,18 @@ export default function Termsofuse() {
       <p>
         If you have any questions or comments about these Terms of Use or this
         site, please contact us at <b>+52 (686) 568-6480</b> or write to us at{" "}
-        <a href='mailto:information@bbrr.solutions'>
+        <a href="mailto:information@bbrr.solutions">
           information@bbrr.solutions
         </a>
       </p>
       <p>Thank you for visiting our site.</p>
       <p>
-        © <span className='copyright_year'>{new Date().getFullYear()}</span>{" "}
-        <span className='company_name'>BBRR Solutions</span> - All Rights
+        © <span className="copyright_year">{new Date().getFullYear()}</span>{" "}
+        <span className="CompanyName">BBRR Solutions</span> - All Rights
         Reserved.
       </p>
-      <GoToTop />
     </div>
   );
-}
+};
+
+export default TermsOfUse;

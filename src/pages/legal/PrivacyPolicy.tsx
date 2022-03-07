@@ -1,19 +1,16 @@
-import "../body.css";
-import "./privacy-policy.css";
+import React, { FC } from "react";
 
-import GoToTop from "../../assets/scripts/go-to-top";
-
-export default function Privacypolicy() {
+const PrivacyPolicy: FC = () => {
   return (
-    <div className='body privacy_policy'>
+    <div className="Body PrivacyPolicy">
       <h3>Privacy Policy</h3>
       <p>
-        At <span className='company_name'>BBRR Solutions</span> we are committed
+        At <span className="CompanyName">BBRR Solutions</span> we are committed
         to ensuring that your personal information is protected and is never
         misused. Protecting the confidentiality and integrity of personal
         information, it is of the utmost importance that{" "}
-        <span className='company_name'>BBRR Solutions</span> treats this matter
-        seriously. <span className='company_name'>BBRR Solutions</span> will
+        <span className="CompanyName">BBRR Solutions</span> treats this matter
+        seriously. <span className="CompanyName">BBRR Solutions</span> will
         assure all users, clients and suppliers that their information is always
         processed in accordance with the regulations and provisions of the
         information protection legislation.
@@ -22,10 +19,10 @@ export default function Privacypolicy() {
       <h3>Information We Collect</h3>
       <p>
         Through our website, events, meetings and telephone calls,{" "}
-        <span className='company_name'>BBRR Solutions</span> collects different
+        <span className="CompanyName">BBRR Solutions</span> collects different
         types of information, of which{" "}
-        <span className='company_name'>BBRR Solutions</span> use in order to
-        identify you. <span className='company_name'>BBRR Solutions</span> also
+        <span className="CompanyName">BBRR Solutions</span> use in order to
+        identify you. <span className="CompanyName">BBRR Solutions</span> also
         collects information that can help to better understand how you use our
         website, services and your interest. This information helps us tailor
         our products and services to your business needs.
@@ -57,7 +54,7 @@ export default function Privacypolicy() {
       <h3>Information from our website and Cookies</h3>
       <p>
         When you interact with our website,{" "}
-        <span className='company_name'>BBRR Solutions</span> will automatically
+        <span className="CompanyName">BBRR Solutions</span> will automatically
         collect information about the use and services, such that they provide
         us with what type of equipment you use and what type of web browser
         mobile equipment uses, on any occasion that you visit our website from
@@ -65,14 +62,14 @@ export default function Privacypolicy() {
         number that identifies your computer on the internet).
       </p>
       <p>
-        Like any company, <span className='company_name'>BBRR Solutions</span>{" "}
+        Like any company, <span className="CompanyName">BBRR Solutions</span>{" "}
         makes use of "cookies" and "log files" on our website. "Cookies" are a
         series of bits of text that are placed on your computer's hard drive
         when you visit a website. "Log files" are small text files that websites
         automatically create each time a user visits a site.{" "}
-        <span className='company_name'>BBRR Solutions</span> uses cookies and
-        log files that tell us, for example, whether you have already visited us
-        or are a new visitor and help us identify specific sections of our site
+        <span className="CompanyName">BBRR Solutions</span> uses cookies and log
+        files that tell us, for example, whether you have already visited us or
+        are a new visitor and help us identify specific sections of our site
         that you may be of great interest to. . "Cookies" and "Log Files" can
         improve your online experience by saving your preferences while visiting
         a specific website.
@@ -103,7 +100,7 @@ export default function Privacypolicy() {
       </p>
       <p>
         When you purchase products or services from us,{" "}
-        <span className='company_name'>BBRR Solutions</span> may collect
+        <span className="CompanyName">BBRR Solutions</span> may collect
         information required to successfully complete our transaction. This
         collection process may include your name, organization, telephone
         number, email, address, billing address and Tax ID (if applicable). If
@@ -117,17 +114,15 @@ export default function Privacypolicy() {
         opportunity to accept or decline the possibility of receiving marketing
         communications in relation to our products and services in a respective
         form (physical or electronic) that will be provided to you.{" "}
-        <span className='company_name'>BBRR Solutions</span> will send a
-        relevant marketing communication until you wish to be removed by your
-        consent. In these cases, the processing is carried out based on your
-        consent.
+        <span className="CompanyName">BBRR Solutions</span> will send a relevant
+        marketing communication until you wish to be removed by your consent. In
+        these cases, the processing is carried out based on your consent.
       </p>
       <h3>How we use your information</h3>
       <p>
-        The information that{" "}
-        <span className='company_name'>BBRR Solutions</span> collects helps us
-        better understand your needs and provide a relevant business service. We
-        will use your information when:
+        The information that <span className="CompanyName">BBRR Solutions</span>{" "}
+        collects helps us better understand your needs and provide a relevant
+        business service. We will use your information when:
       </p>
       <ul>
         <li>The service you requested is delivered.</li>
@@ -152,7 +147,7 @@ export default function Privacypolicy() {
         communications. If you wish not to be part of our marketing contact
         list, you can unsubscribe by following the instructions in our
         communications, or by contacting the email account{" "}
-        <a href='mailto:information@bbrr.solutions'>
+        <a href="mailto:information@bbrr.solutions">
           information@bbrr.solutions
         </a>
         .
@@ -160,7 +155,7 @@ export default function Privacypolicy() {
       <h3>Information we transfer</h3>
       <p>
         We may transfer information that{" "}
-        <span className='company_name'>BBRR Solutions</span> collects on this
+        <span className="CompanyName">BBRR Solutions</span> collects on this
         site to other countries in which we do business, but we will only do
         this for the purposes described above. When we transfer your information
         to other countries, we will protect the information as described in this
@@ -222,20 +217,21 @@ export default function Privacypolicy() {
         privacy policy. We strongly recommend that you review these policies if
         you visit any mentioned website. Likewise, any site mentioned on our
         site that you visit is not related to{" "}
-        <span className='company_name'>BBRR Solutions</span>, and{" "}
-        <span className='company_name'>BBRR Solutions</span> is not responsible
+        <span className="CompanyName">BBRR Solutions</span>, and{" "}
+        <span className="CompanyName">BBRR Solutions</span> is not responsible
         for their content or any use of these sites.
       </p>
       <h3>Contact Us</h3>
       <p>
         To clarify any questions about our privacy practices or the way your
         personal information is handled, please contact{" "}
-        <a href='mailto:information@bbrr.solutions'>
+        <a href="mailto:information@bbrr.solutions">
           information@bbrr.solutions
         </a>
         .
       </p>
-      <GoToTop />
     </div>
   );
-}
+};
+
+export default PrivacyPolicy;
