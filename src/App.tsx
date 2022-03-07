@@ -9,11 +9,13 @@ import Home from "pages/Home";
 import Privacypolicy from "pages/legal/PrivacyPolicy";
 import Termsofuse from "pages/legal/TermsOfUse";
 import Error404 from "pages/404";
+import Header from "components/blocks/Header";
 
 const App: FC = () => {
   return (
     <Router>
       <div className="App">
+        <Header />
         <Switch>
           <Route
             path={"/Legal/Privacy-Policy"}
