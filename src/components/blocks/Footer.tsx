@@ -7,11 +7,8 @@ import Stdbtn from "components/StdButton";
 const Footer: FC = () => {
   return (
     <div className={styles.Footer}>
-      <Stdbtn
-        button_text="Privacy Policy"
-        button_path="/Legal/Privacy-Policy"
-      />
-      <Stdbtn button_text="Terms of Use" button_path="/Legal/Terms-of-Use" />
+      <Stdbtn ButtonText="Privacy Policy" ButtonPath="/Legal/Privacy-Policy" />
+      <Stdbtn ButtonText="Terms of Use" ButtonPath="/Legal/Terms-of-Use" />
       <div className={styles.CompanyFooter}>
         <p>Contact us at:</p>
         <p>+52 (686) 568-6480</p>
