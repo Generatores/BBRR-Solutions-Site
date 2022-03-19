@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 const TermsOfUse: FC = () => {
   return (
-    <div className="Body TermsOfUse">
+    <div className="Body">
       <h3>Terms of use</h3>
       <p>
         © Copyright <span className="CompanyName">BBRR Solutions</span>{" "}

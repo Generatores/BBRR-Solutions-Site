@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 const PrivacyPolicy: FC = () => {
   return (
-    <div className="Body PrivacyPolicy">
+    <div className="Body">
       <h3>Privacy Policy</h3>
       <p>
         At <span className="CompanyName">BBRR Solutions</span> we are committed
