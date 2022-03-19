@@ -10,6 +10,9 @@ import Privacypolicy from "pages/legal/PrivacyPolicy";
 import Termsofuse from "pages/legal/TermsOfUse";
 import Error404 from "pages/404";
 import Header from "components/blocks/Header";
+import AboutUs from "pages/AboutUs";
+import ContactUs from "pages/ContactUs";
+import Services from "pages/Services";
 
 const App: FC = () => {
   return (
@@ -17,6 +20,9 @@ const App: FC = () => {
       <div className="App">
         <Header />
         <Switch>
+          <Route path={"/Contact-us"} exact component={ContactUs} />
+          <Route path={"/Services"} exact component={Services} />
+          <Route path={"/About-us"} exact component={AboutUs} />
           <Route
             path={"/Legal/Privacy-Policy"}
             exact
