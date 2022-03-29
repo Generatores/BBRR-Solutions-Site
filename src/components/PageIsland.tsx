@@ -1,27 +1,15 @@
 import React, { FC } from "react";
-import parse from "html-react-parser";
 
 import styles from "styles/PageIsland.module.css";
-import StdButton from "./StdButton";
 
-interface IPageIsland {
-  Title: string;
-  Body: string;
-  ButtonPath: string;
-  ButtonText: string;
-}
+import { TitleBody } from "components/interfaces";
+import parse from "html-react-parser";
 
-const PageIsland: FC<IPageIsland> = ({
-  Title,
-  Body,
-  ButtonPath,
-  ButtonText,
-}) => {
+const PageIsland: FC<TitleBody> = ({ Title, Body = "" }) => {
   return (
     <div className={styles["Container"]}>
-      <h2>{Title}</h2>
-      <p>{parse(Body)}</p>
-      <StdButton ButtonPath={ButtonPath} ButtonText={ButtonText} />
+      <h3 className={styles["Title"]}>{Title}</h3>
+      <p className={styles["Body"]}>{parse(Body)}</p>
     </div>
   );
 };

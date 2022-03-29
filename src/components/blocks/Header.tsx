@@ -4,16 +4,19 @@ import styles from "styles/Header.module.css";
 
 import BBRRLogo from "assets/images/BBRR Solutions Banner without background.png";
 import Nav from "components/Nav";
+import { Link } from "react-router-dom";
 
 const Header: FC = () => {
   return (
     <div className={styles.Header}>
       <div>
-        <img
-          className={styles.CompanyBanner}
-          src={BBRRLogo}
-          alt="BBRR Solutions Logo"
-        />
+        <Link to="/">
+          <img
+            className={styles.CompanyBanner}
+            src={BBRRLogo}
+            alt="BBRR Solutions Logo"
+          />
+        </Link>
       </div>
       <div>
         <Nav />

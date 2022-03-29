@@ -25,7 +25,8 @@ th,
 td,
 form,
 body {
-  font-family: Arial;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 p {
   text-align: justify;
