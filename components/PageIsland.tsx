@@ -1,9 +1,9 @@
 import React, { FC } from "react";
-
-import styles from "styles/PageIsland.module.css";
-
-import { TitleBody } from "components/interfaces";
 import parse from "html-react-parser";
+
+import styles from "../styles/PageIsland.module.css";
+
+import { TitleBody } from "../components/interfaces";
 
 const PageIsland: FC<TitleBody> = ({ Title, Body = "" }) => {
   return (

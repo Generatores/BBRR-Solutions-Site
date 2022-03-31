@@ -1,9 +1,9 @@
 import React, { FC } from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
-import styles from "styles/StdButton.module.css";
+import styles from "../styles/StdButton.module.css";
 
-import { IStdButton } from "components/interfaces";
+import { IStdButton } from "../components/interfaces";
 
 const StdButton: FC<IStdButton> = ({
   ButtonPath,
@@ -12,7 +12,7 @@ const StdButton: FC<IStdButton> = ({
 }) => {
   return (
     <div className={styles.ButtonContainer}>
-      <Link to={ButtonPath}>
+      <Link href={ButtonPath}>
         <button className={styles.StdButton} disabled={ButtonStatus}>
           {ButtonText}
         </button>

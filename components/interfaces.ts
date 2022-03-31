@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 export interface IStdButton {
   ButtonPath: string;
   ButtonText: string;
@@ -7,7 +9,7 @@ export interface IStdButton {
 export interface IPageIsland extends IStdButton, TitleBody {}
 
 export interface ITopicContainer extends TitleBody {
-  ImageSrc: string;
+  ImageSrc: StaticImageData;
   ImageAlt: string;
   RenderButton?: true | false;
   ButtonPath?: string;

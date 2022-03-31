@@ -1,6 +1,6 @@
-import React, { FC } from "react";
+import { NextPage } from "next";
 
-const ContactUs: FC = () => {
+const ContactUs: NextPage = () => {
   return (
     <div className="Body">
       <h2>Contact us</h2>

@@ -1,12 +1,12 @@
-import React, { FC } from "react";
+import { NextPage } from "next";
 
-import TopicContainer from "components/TopicContainer";
-import BILogo from "assets/images/brands used/BIIcon.png";
-import MS365Logo from "assets/images/brands used/Office365.png";
-import DelmiaLogo from "assets/images/brands used/DassaultLogo.png";
-import SoftDevLogo from "assets/images/brands used/SoftwareDevelopmentLogo.png";
+import TopicContainer from "../../components/TopicContainer";
+import BILogo from "../../assets/images/brands used/BIIcon.png";
+import MS365Logo from "../../assets/images/brands used/Office365.png";
+import DelmiaLogo from "../../assets/images/brands used/DassaultLogo.png";
+import SoftDevLogo from "../../assets/images/brands used/SoftwareDevelopmentLogo.png";
 
-const Services: FC = () => {
+const Services: NextPage = () => {
   return (
     <div className="Body">
       <h2>Services</h2>
