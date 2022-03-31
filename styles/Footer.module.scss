@@ -1,0 +1,13 @@
+.Footer {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  margin: 25px 0px 25px 0px;
+}
+.CompanyFooter {
+  & > p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
