@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   return (
     <div className="Body">
       <div className="PageContainer">
-        <h2>We are the Business Intelligence Team your business needs!</h2>
+        <h2>Pull Request test</h2>
         <p>
           <b>BBRR Solutions</b> it&apos;s a company focused on the solutions of
           business/management problems, manufacturing or operational
