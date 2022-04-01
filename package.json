@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run build-sass && next build",
+    "build": "npm run build-sass && next build && next export",
     "start": "next start",
     "lint": "next lint",
     "build-sass": "node-sass -i ./styles -o ./styles"
