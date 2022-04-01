@@ -1,14 +1,14 @@
-import React, { FC } from "react";
+import { NextPage } from "next";
 
-import Equipment from "assets/JSON/benefits/Equipment.json";
-import ForAll from "assets/JSON/benefits/ForAll.json";
-import Learning from "assets/JSON/benefits/Learning.json";
-import Remote from "assets/JSON/benefits/Remote.json";
-import Students from "assets/JSON/benefits/Students.json";
-import Travel from "assets/JSON/benefits/Travel.json";
-import PageIsland from "components/PageIsland";
+import Equipment from "../assets/JSON/benefits/Equipment.json";
+import ForAll from "../assets/JSON/benefits/ForAll.json";
+import Learning from "../assets/JSON/benefits/Learning.json";
+import Remote from "../assets/JSON/benefits/Remote.json";
+import Students from "../assets/JSON/benefits/Students.json";
+import Travel from "../assets/JSON/benefits/Travel.json";
+import PageIsland from "../components/PageIsland";
 
-const AboutUs: FC = () => {
+const AboutUs: NextPage = () => {
   return (
     <div className="Body">
       <div className="PageContainer">

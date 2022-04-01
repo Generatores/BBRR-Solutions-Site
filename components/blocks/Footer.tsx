@@ -1,8 +1,8 @@
 import React, { FC } from "react";
 
-import styles from "styles/Footer.module.css";
+import styles from "../../styles/Footer.module.css";
 
-import Stdbtn from "components/StdButton";
+import Stdbtn from "../../components/StdButton";
 
 const Footer: FC = () => {
   return (

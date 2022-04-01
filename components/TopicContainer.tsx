@@ -1,9 +1,10 @@
 import React, { FC } from "react";
-
-import styles from "styles/TopicContainer.module.css";
-
 import parse from "html-react-parser";
-import { ITopicContainer } from "components/interfaces";
+import Image from "next/image";
+
+import styles from "../styles/TopicContainer.module.css";
+
+import { ITopicContainer } from "../components/interfaces";
 import StdButton from "./StdButton";
 
 const TopicContainer: FC<ITopicContainer> = ({
@@ -16,8 +17,8 @@ const TopicContainer: FC<ITopicContainer> = ({
 }) => {
   return (
     <div className={styles["Container"]}>
-      <div>
-        <img src={ImageSrc} alt={ImageAlt} className={styles["Image"]} />
+      <div className={styles["Image"]}>
+        <Image src={ImageSrc} alt={ImageAlt} />
       </div>
       <div>
         <h3 className={styles["Title"]}>{Title}</h3>

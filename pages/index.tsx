@@ -1,16 +1,16 @@
-import React, { FC } from "react";
+import type { NextPage } from "next";
 
-import TopicContainer from "components/TopicContainer";
-import BILogo from "assets/images/brands used/BIIcon.png";
-import BIText from "assets/JSON/services/BI.json";
-import MS365Logo from "assets/images/brands used/Office365.png";
-import MS365Text from "assets/JSON/services/Office365.json";
-import DelmiaLogo from "assets/images/brands used/DassaultLogo.png";
-import DelmiaText from "assets/JSON/services/DELMIAWorks.json";
-import SoftDevLogo from "assets/images/brands used/SoftwareDevelopmentLogo.png";
-import SoftDevText from "assets/JSON/services/SoftDev.json";
+import TopicContainer from "../components/TopicContainer";
+import BILogo from "../assets/images/brands used/BIIcon.png";
+import BIText from "../assets/JSON/services/BI.json";
+import MS365Logo from "../assets/images/brands used/Office365.png";
+import MS365Text from "../assets/JSON/services/Office365.json";
+import DelmiaLogo from "../assets/images/brands used/DassaultLogo.png";
+import DelmiaText from "../assets/JSON/services/DELMIAWorks.json";
+import SoftDevLogo from "../assets/images/brands used/SoftwareDevelopmentLogo.png";
+import SoftDevText from "../assets/JSON/services/SoftDev.json";
 
-const Home: FC = () => {
+const Home: NextPage = () => {
   return (
     <div className="Body">
       <div className="PageContainer">
