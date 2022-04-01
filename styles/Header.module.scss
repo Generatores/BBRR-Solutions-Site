@@ -1,0 +1,14 @@
+.CompanyBanner {
+  width: 15vw;
+  min-width: 250px;
+}
+
+.Header {
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 100vw;
+
+  & > div {
+    margin: auto;
+  }
+}

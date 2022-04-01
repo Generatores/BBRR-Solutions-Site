@@ -1,0 +1,21 @@
+.ButtonContainer {
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+.StdButton {
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100px;
+  &:hover,
+  &:focus {
+    background-color: rgb(7, 194, 7);
+    outline: none;
+  }
+  &:active {
+    border-radius: 10px;
+  }
+}
