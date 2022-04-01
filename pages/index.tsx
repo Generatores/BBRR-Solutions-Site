@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <div className="PageContainer">
         <h2>We are the Business Intelligence Team your business needs!</h2>
         <p>
-          <b>BBRR Solutions</b> it's a company focused on the solutions of
+          <b>BBRR Solutions</b> it&apos;s a company focused on the solutions of
           business/management problems, manufacturing or operational
           deficiencies and business intelligence analysis. Having deep knowledge
           on the financial, operational, logistical and executive areas of the
@@ -25,7 +25,8 @@ const Home: NextPage = () => {
             <li>Identify the business problems.</li>
             <li>Analyce the data sources of your business.</li>
             <li>
-              Propose action plans and monitor the KPI's to ensure a success.
+              Propose action plans and monitor the KPI&apos;s to ensure a
+              success.
             </li>
           </ul>
         </p>

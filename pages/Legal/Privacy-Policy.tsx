@@ -63,33 +63,35 @@ const PrivacyPolicy: FC = () => {
       </p>
       <p>
         Like any company, <span className="CompanyName">BBRR Solutions</span>{" "}
-        makes use of "cookies" and "log files" on our website. "Cookies" are a
-        series of bits of text that are placed on your computer's hard drive
-        when you visit a website. "Log files" are small text files that websites
-        automatically create each time a user visits a site.{" "}
+        makes use of &quot;cookies&quot; and &quot;log files&quot; on our
+        website. &quot;Cookies&quot; are a series of bits of text that are
+        placed on your computer&apos;s hard drive when you visit a website.
+        &quot;Log files&quot; are small text files that websites automatically
+        create each time a user visits a site.{" "}
         <span className="CompanyName">BBRR Solutions</span> uses cookies and log
         files that tell us, for example, whether you have already visited us or
         are a new visitor and help us identify specific sections of our site
-        that you may be of great interest to. . "Cookies" and "Log Files" can
-        improve your online experience by saving your preferences while visiting
-        a specific website.
+        that you may be of great interest to. . &quot;Cookies&quot; and
+        &quot;Log Files&quot; can improve your online experience by saving your
+        preferences while visiting a specific website.
       </p>
       <p>
-        The "help" section of your toolbar in most browsers will be able to
-        provide you with how to prevent accepting new "cookies", how to be
-        notified when you receive a new "cookie", and how to disable existing
-        "cookies". Remember that, without "cookies", you will not be able to
+        The &quot;help&quot; section of your toolbar in most browsers will be
+        able to provide you with how to prevent accepting new
+        &quot;cookies&quot;, how to be notified when you receive a new
+        &quot;cookie&quot;, and how to disable existing &quot;cookies&quot;.
+        Remember that, without &quot;cookies&quot;, you will not be able to
         experience the full experience of the services that our website
         provides.
       </p>
       <h3>Web Beacons</h3>
       <p>
-        Certain pages on our site contain "Web Beacons" (also known as Internet
-        Tags, Pixel tags, or GIFs). These web beacons allow third parties to
-        obtain information such as the IP address of the equipment that
-        downloaded the page that contains said beacon, the URL of the page where
-        said beacons appear, the time that the page containing the beacon is
-        visited, the type of browser that you use to view the page, and the
+        Certain pages on our site contain &quot;Web Beacons&quot; (also known as
+        Internet Tags, Pixel tags, or GIFs). These web beacons allow third
+        parties to obtain information such as the IP address of the equipment
+        that downloaded the page that contains said beacon, the URL of the page
+        where said beacons appear, the time that the page containing the beacon
+        is visited, the type of browser that you use to view the page, and the
         information in cookies installed by third parties.
       </p>
       <h3>Basic legal foundations in information collection</h3>

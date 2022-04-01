@@ -14,8 +14,8 @@ const AboutUs: NextPage = () => {
       <div className="PageContainer">
         <h2>Who we are?</h2>
         <p>
-          <b>BBRR Solutions</b> it's a company focused on the solution of all
-          type of business/management problems that any business may face.
+          <b>BBRR Solutions</b> it&apos;s a company focused on the solution of
+          all type of business/management problems that any business may face.
           Always working with the latest technologies and work metholodogies{" "}
           <b>BBRR Solutions</b> is capable to see the problems you may face from
           multiple sides, scopes and approaches.

@@ -14,8 +14,8 @@ const TermsOfUse: FC = () => {
         Welcome to <a href="www.bbrr.solutions">www.bbrr.solutions</a> website
         operated by
         <span className="CompanyName"> BBRR Solutions</span>. Throughout the
-        site, the terms "we," "us" and "our" refer to{" "}
-        <span className="CompanyName">BBRR Solutions</span>.{" "}
+        site, the terms &quot;we,&quot; &quot;us&quot; and &quot;our&quot; refer
+        to <span className="CompanyName">BBRR Solutions</span>.{" "}
         <span className="CompanyName">BBRR Solutions</span> offers this website,
         including all information, tools and/or services available from this
         website, to you, the user, conditioned upon your acceptance of all these
@@ -135,10 +135,10 @@ const TermsOfUse: FC = () => {
         constitute or encourage a criminal offense, violate the rights of any
         party or otherwise give rise to liability or violate any law, or (iii)
         may contain software viruses, political campaigning, chain letters, mass
-        mailings, or any form of "spam." You may not use a false e-mail address
-        or other identifying information, or impersonate any person or entity,
-        or otherwise mislead as to the origin of any content. You may not upload
-        commercial content onto the site.
+        mailings, or any form of &quot;spam.&quot; You may not use a false
+        e-mail address or other identifying information, or impersonate any
+        person or entity, or otherwise mislead as to the origin of any content.
+        You may not upload commercial content onto the site.
       </p>
       <h3>Links</h3>
       <p>
@@ -168,8 +168,9 @@ const TermsOfUse: FC = () => {
         <span className="CompanyName">BBRR Solutions</span> its affiliates, its
         licensors, its content providers, and/or other third parties. All of
         these trademarks, logos, and service marks are the property of their
-        respective owners. The names '''Other companies purchased''' and other
-        associated trademarks and logos used on the website are trade marks of{" "}
+        respective owners. The names &apos;&apos;&apos;Other companies
+        purchased&apos;&apos;&apos; and other associated trademarks and logos
+        used on the website are trade marks of{" "}
         <span className="CompanyName">BBRR Solutions</span> or its subsidiaries
         or associated companies and may be registered in certain jurisdictions.
         Nothing on this site shall be construed as granting, by implication,
@@ -182,14 +183,15 @@ const TermsOfUse: FC = () => {
       <h3>DISCLAIMERS</h3>
       <p>
         YOUR USE OF THIS SITE IS AT YOUR SOLE RISK. THE SITE IS PROVIDED ON AN
-        "AS IS" AND "AS AVAILABLE" BASIS. WE RESERVE THE RIGHT TO RESTRICT OR
-        TERMINATE YOUR ACCESS TO THE SITE OR ANY FEATURE OR PART THEREOF AT ANY
-        TIME. <span className="CompanyName">BBRR SOLUTIONS</span> EXPRESSLY
-        DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED
-        INCLUDING, BUT NOT LIMITED TO: IMPLIED WARRANTIES OF MERCHANTABILITY AND
-        FITNESS FOR A PARTICULAR PURPOSE AND ANY WARRANTIES THAT MATERIALS ON
-        THE SITE ARE NONINFRINGING, AS WELL AS WARRANTIES IMPLIED FROM A COURSE
-        OF PERFORMANCE OR COURSE OF DEALING; THAT ACCESS TO THE SITE WILL BE
+        &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; BASIS. WE RESERVE THE
+        RIGHT TO RESTRICT OR TERMINATE YOUR ACCESS TO THE SITE OR ANY FEATURE OR
+        PART THEREOF AT ANY TIME.{" "}
+        <span className="CompanyName">BBRR SOLUTIONS</span> EXPRESSLY DISCLAIMS
+        ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED INCLUDING, BUT
+        NOT LIMITED TO: IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+        PARTICULAR PURPOSE AND ANY WARRANTIES THAT MATERIALS ON THE SITE ARE
+        NONINFRINGING, AS WELL AS WARRANTIES IMPLIED FROM A COURSE OF
+        PERFORMANCE OR COURSE OF DEALING; THAT ACCESS TO THE SITE WILL BE
         UNINTERRUPTED OR ERROR-FREE; THAT THE SITE WILL BE SECURE; THAT THE SITE
         OR THE SERVER THAT MAKES THE SITE AVAILABLE WILL BE VIRUS-FREE; OR THAT
         INFORMATION ON THE SITE WILL BE COMPLETE, ACCURATE OR TIMELY. IF YOU
@@ -218,7 +220,7 @@ const TermsOfUse: FC = () => {
         OUT OF OR IN ANY WAY RELATED TO THE SITE OR WITH THE DELAY OR INABILITY
         TO USE THE SITE, OR FOR ANY INFORMATION, PRODUCTS, OR SERVICES
         ADVERTISED IN OR OBTAINED THROUGH THE SITE,{" "}
-        <span className="CompanyName">BBRR SOLUTIONS</span> 'S REMOVAL OR
+        <span className="CompanyName">BBRR SOLUTIONS</span> &apos;S REMOVAL OR
         DELETION OF ANY MATERIALS SUBMITTED OR POSTED ON ITS SITE, OR OTHERWISE
         ARISING OUT OF THE USE OF THE SITE, WHETHER BASED ON CONTRACT, TORT,
         STRICT LIABILITY OR OTHERWISE, EVEN IF{" "}
